@@ -1,29 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../output.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+    <link rel="stylesheet" href="./style.css">
     <title>My-Portfolio</title>
 </head>
+
 <body>
     <div class="w-screen h-screen bg-slate-700 flex justify-center items-center">
-        <div
-          class="w-[96%] h-[96%] bg-slate-950 rounded-lg opacity-70 flex flex-col overflow-hidden">
-          <div id="nav" class="h-[20%] flex justify-between p-[5%]">
-            <ul>
-              <li>
+        <div class="w-[96%] h-[96%]  rounded-lg opacity-70 flex flex-col overflow-hidden">
+            <div id="nav" class="h-[20%] flex justify-between items-center px-2">
                 <h5 class="text-white">david.portfolio</h5>
-              </li>
-            </ul>
-            <ul class="text-white flex justify-between gap-10">
-              <li>home</li>
-              <li>project</li>
-              <li>contact </li>
-            </ul>
-          </div>
-          <div id="main1" class="h-[80%] bg-sky-600"></div>
-          <div id="footer" class="h-[20%] bg-gray-400"></div>
+                <div class="rounded-[25% 25% 28% 30% / 0% 0% 100% 100%] border-2 border-gray-50 bg-cyan-700">
+                    <ul class="text-white flex justify-between gap-10 ">
+                        <li>home</li>
+                        <li>project</li>
+                        <li>contact </li>
+                    </ul>
+                </div>
+                <ul class="wrapper">
+                    <li class="icon facebook">
+                      <span class="tooltip">Facebook</span>
+                      <span><i class="fab fa-facebook-f"></i></span>
+                    </li>
+                    <li class="icon twitter">
+                      <span class="tooltip">Twitter</span>
+                      <span><i class="fab fa-x-twitter"></i></span>
+                    </li>
+                    <li class="icon instagram">
+                      <span class="tooltip">Instagram</span>
+                      <span><i class="fab fa-instagram"></i></span>
+                    </li>
+                    <li class="icon github">
+                      <span class="tooltip">Github</span>
+                      <span><i class="fab fa-github"></i></span>
+                    </li>
+                    <li class="icon youtube">
+                      <span class="tooltip">Youtube</span>
+                      <span><i class="fab fa-youtube"></i></span>
+                    </li>
+                  </ul>
+            </div>
+            <div id="main1" class="h-[80%] bg-sky-600"></div>
+            <div id="footer" class="h-[20%] bg-gray-400"></div>
         </div>
-      </div>
+    </div>
+
 </html>
