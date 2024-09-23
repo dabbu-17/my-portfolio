@@ -25,8 +25,8 @@
   
   .wrapper .tooltip {
     position: absolute;
-    top: 0;
-    font-size: 14px;
+    top: 5%;
+    font-size: 10px;
     background: #ffffff;
     color: #ffffff;
     padding: 5px 8px;
