@@ -95,3 +95,10 @@
     background: #cd201f;
     color: #ffffff;
   }
+#bg{
+  background: url(../img/download.jpg);
+  background-size: cover;
+}
+/* #page1{
+  backdrop-filter: blur(10px);
+} */
