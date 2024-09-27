@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+* {
+  /* box-sizing: border-box; */
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --color-primary: hsl(171, 50%, 90%);
+  --color-secondary: hsl(171, 50%, 10%);
+  --color-tertiary: hsl(231, 80%, 20%);
+  --color-accent: hsl(111, 80%, 20%);
+}
 .wrapper {
     display: inline-flex;
     list-style: none;
@@ -96,9 +106,32 @@
     color: #ffffff;
   }
 #bg{
-  background: url(../img/download.jpg);
+  /* background: url(./download.jpg); */
+  background-color: var(--color-primary);
   background-size: cover;
 }
 #page1{
   backdrop-filter: blur(10px);
+}
+#blink{
+  color: var(--color-primary);
+}
+blink::before {
+  content: "";
+  height: 30px;
+  width: 2px;
+  position: absolute;
+  top: 50%;
+  right: -8px;
+  background: #BD53ED;
+  transform: translateY(-45%);
+  animation: blink 0.7s infinite;
+}
+
+blink.stop-blinking::before {
+  animation: none;
+}
+
+@keyframes blink {
+  50% { opacity: 0 }
 }
