@@ -4,15 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../output.css" rel="stylesheet">
+  <link rel="stylesheet" href="../src/output.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
   <link rel="stylesheet" href="./style.css">
   <title>My-Portfolio</title>
 </head>
 
 <body>
-  <div id="bg" class="w-screen h-screen bg-cover bg-no-repeat flex justify-center items-center">
-    <div id="page1" class="w-[96%] h-[96%]  rounded-lg  flex flex-col brightness-50 overflow-hidden">
+  <div id="bg" class="w-screen h-screen bg-cover bg-no-repeat flex justify-center items-center bg-[url('../main/img/download.jpg')]">
+    <div id="page1" class="w-[96%] h-[96%]  rounded-lg  flex flex-col bg-zinc-600 overflow-hidden">
       <div id="nav" class="h-[20%] flex justify-between items-center px-2">
         <h5 class="text-white">david.portfolio</h5>
         <div class=" ">
@@ -45,13 +45,13 @@
           </li>
         </ul>
       </div>
-      <div id="main1" class="h-[80%] bg-white flex flex-col ">
-        <div class="flex justify-center items-center flex-col">
-          <h1 class="text-white text-3xl font-semibold">I am DAVID </h1>
-          <h1 class="text-white text-3xl font-semibold">I am  <span class="text-violet-800">hg</span></h1>
+      <div id="main1" class="h-[80%] w-full bg-white flex justify-evenly ">
+        <div class="flex justify-center items-center flex-col w-full">
+          <h1 class="text-red-500 text-3xl font-semibold">I am DAVID </h1>
+          <h1 class="text-red-800 text-3xl font-semibold">I am  <p class="text-violet-500">UI designer</p></h1>
         </div>
-        <div>
-          <div class="h-48 w-48 bg-slate-300 " ></div>
+        <div class="w-full h-full bg-violet-800">
+          <div class="h-48 w-48 bg-sky-300 " ></div>
         </div>
       </div>
       <div id="footer" class="h-[20%] bg-gray-400 "></div>
