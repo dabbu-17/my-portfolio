@@ -1,5 +1,5 @@
 const dynamicText = document.querySelector("#dynamic-text");
-const words = ["Love", "like Art", "the Future", "Everything"];
+const words = ["UI/UX Designer" , "Web Developer (html/css wala)" , "Data Analyst"];
 
 // Variables to track the position and deletion status of the word
 let wordIndex = 0;
