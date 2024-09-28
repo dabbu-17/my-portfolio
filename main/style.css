@@ -108,15 +108,12 @@
 #bg{
   /* background: url(./download.jpg); */
   background-color: var(--color-primary);
-  background-size: cover;
+  /* background-size: cover; */
 }
 #page1{
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
 }
-#blink{
-  color: var(--color-primary);
-}
-blink::before {
+#dynamic-text::before {
   content: "";
   height: 30px;
   width: 2px;
@@ -127,8 +124,7 @@ blink::before {
   transform: translateY(-45%);
   animation: blink 0.7s infinite;
 }
-
-blink.stop-blinking::before {
+#dynamic-text.stop-blinking::before {
   animation: none;
 }
 
