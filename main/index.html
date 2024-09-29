@@ -11,20 +11,21 @@
   <title>My-Portfolio</title>
 </head>
 
-<body>
-  <div id="bg" class="w-screen h-screen bg-cover bg-no-repeat flex justify-center  items-center ">
-    <div id="page1" class="w-[96%] h-[96%]  rounded-lg  flex flex-col bg-[--color-tertiary] overflow-hidden">
-      <div id="nav" class="h-[20%] flex justify-between items-center px-2">
-        <h5 class="text-white px-2">david.portfolio</h5>
+<body class=" font-[Poppins]">
+  <div id="bg" class="w-screen h-screen grid place-items-center bg-gradient-to-t from-zinc-950 to-zinc-700">
+    <div id="page1"
+      class="w-[99%] h-[99%]  rounded-lg  flex flex-col overflow-hidden bg-gradient-to-t from-zinc-700 to-zinc-950">
+      <div id="nav" class="h-[7%] w-[80%] fixed top-12 left-[50%] transform translate-x-[-50%] bg-zinc-800 rounded-full text-center z-10   sm:flex justify-between items-center px-2">
+        <h5 class="text-white m-2 sm:px-2">david.<span id="dotted-text" class="font-[Dancing Script]">portfolio</span></h5>
         <div class=" ">
-          <ul class="text-white flex justify-between gap-10 ">
-            <li>home</li>
-            <li>about</li>
-            <li>project</li>
-            <li>contact </li>
+          <ul class="text-white  flex sm:flex justify-between gap-10 ">
+            <li>Home</li>
+            <li>About</li>
+            <li>Project</li>
+            <li>Contact </li>
           </ul>
         </div>
-        <ul class="wrapper">
+        <ul class="wrapper hidden sm:inline-flex" id="navIcons">
           <li class="icon facebook">
             <span class="tooltip">Facebook</span>
             <span><i class="fab fa-facebook-f"></i></span>
@@ -50,15 +51,22 @@
       <div id="main1" class="h-[80%] w-full flex  ">
         <div class="flex justify-center items-center flex-col w-full">
           <h1 class="text-white text-4xl font-semibold">I am DAVID </h1>
-          <h1 class="text-white text-3xl font-semibold flex px-5">I am  <span id="dynamic-text" class="px-2 text-[#BD53ED] relative"></span></h1>
-        <button class="rounded-md border-2 bg-[--color-primary] text-[--color-accent] px-6 py-2 ">Download CV</button>
+          <h1 class="text-white text-3xl font-semibold flex px-5 m-2">I am <span id="dynamic-text"
+              class="px-2 text-[#BD53ED] relative"></span></h1>
+          <button class="rounded-md border-none bg-[#BD53ED] text-[#fff] px-4 py-2 ">Download CV</button>
         </div>
-        <div class="w-full h-full bg-violet-800 grid place-items-center">
+        <!-- <div class="w-full h-full bg-violet-800 grid place-items-center">
           <div class="h-48 w-48 bg-sky-300 "></div>
-        </div>
+        </div> -->
       </div>
+
 
     </div>
   </div>
+  </div>
+  <div id="page2" class="w-screen h-screen">
+    <div>
+
+    </div>
 
 </html>

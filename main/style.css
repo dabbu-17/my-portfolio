@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-* {
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 :root {
   --color-primary: hsl(171, 50%, 90%);
   --color-secondary: hsl(171, 50%, 10%);
@@ -11,7 +8,7 @@
   --color-accent: hsl(111, 80%, 20%);
 }
 .wrapper {
-    display: inline-flex;
+    /* display: inline-flex; */
     list-style: none;
   }
   
@@ -105,14 +102,7 @@
     background: #cd201f;
     color: #ffffff;
   }
-#bg{
-  /* background: url(./download.jpg); */
-  background-color: var(--color-primary);
-  /* background-size: cover; */
-}
-#page1{
-  backdrop-filter: blur(8px);
-}
+
 #dynamic-text::before {
   content: "";
   height: 30px;
@@ -130,4 +120,8 @@
 
 @keyframes blink {
   50% { opacity: 0 }
+}
+
+#dotted-text{
+  font-family: "Dancing Script", cursive;
 }
