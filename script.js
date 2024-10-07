@@ -21,6 +21,6 @@ let tl = gsap.timeline()
 tl.to("#loader",{
   opacity:0,
   duration:0.4,
-  delay:4
+  delay:3.5
 })
 
